@@ -1,0 +1,67 @@
+.container {
+    color: antiquewhite;
+}
+
+body {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-geometrico-abstracto-lineas-negras_1017-31900.jpg?w=996&t=st=1713930515~exp=1713931115~hmac=0e3a1c774413cc91e1c6a43d09e2994c797f1c160b7e1423ffa28029b806b0ca');
+    background-size: cover; /* Para asegurar que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
+
+#filter-dropdown {
+    background-color: #333; /* Color de fondo gris oscuro */
+    color: white; /* Cambia el color del texto a blanco para mayor contraste */
+    border-color: #cacac5; /* Cambia el color del borde al mismo color que el fondo */
+}
+
+
+
+.task-checkbox {
+    margin-right: 10px; 
+}
+
+#todo-list {
+    background-color: black;
+}
+
+.list-group-item {
+    background-color: #333; 
+    color: antiquewhite;
+}
+
+.btn-delete {
+    margin-left: 35px; 
+    color: #333;
+    border-radius: 20px;
+}
+
+.btn-add {
+    background-color: green;
+    color: white; 
+}
+
+.btn-taks {
+    
+    margin-left: 25px;
+}
+
+#todo-input {
+    background-color: #333; 
+    color: white; 
+    border-color: #cacac5; /
+}
+
+#todo-input::placeholder {
+    color: #999; 
+}
+
+h2{
+    text-align: center;
+    color: burlywood;
+    padding-bottom: 70px;
+}
+
+h1{
+    color: rgb(245, 62, 6);
+    padding-top: 30px;
+}
